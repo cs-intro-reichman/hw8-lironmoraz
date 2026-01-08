@@ -80,7 +80,7 @@
         if (index == -1) {
             return false;
         }
-           for (int i = index; i < this.follows.length; i++) 
+           for (int i = index; i < this.fCount - 1; i++) 
                 {
                 follows[i] = follows[i+1];
             }
